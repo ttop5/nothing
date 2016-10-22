@@ -15,7 +15,7 @@
 		<div>&nbsp;</div>
 		<?php endwhile; ?>
 
-		<!--  -->
+		<!-- 查看新旧文章 -->
 		<p><?php previous_posts_link('&lt;&lt; 查看新文章', 0); ?> <span><?php next_posts_link(' 查看旧文章 &gt;&gt;', 0); ?></span></p>
 		<?php else : ?>
 		<h3><a href="#" rel="bookmark">未找到</a></h3>
